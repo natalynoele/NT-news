@@ -2,6 +2,7 @@
 import { refs } from './refs';
 
 export default function onResize(size, toRemove) {
+  console.log(size, 'size', 'toRemove', toRemove);
   if (
     window.location.pathname === '/' ||
     window.location.pathname === '/index.html'

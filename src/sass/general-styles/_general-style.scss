@@ -89,4 +89,7 @@ svg {
 }
 main {
   min-height: calc(100vh - 285px);
+   @media only screen and (max-width: 767px) {
+    min-height: calc(100vh - 262px);
+   }
 }

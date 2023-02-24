@@ -22,9 +22,10 @@ function createDiv(readNews) {
   let unique = readingDates.filter(onlyUnique);
   const divMarkup = unique
     .map(el => {
-      return `<div class = "accordion__container accord parent__box dated=${el.toString()}"><p class = "accordion__label accord__date">${el.toString()}</p><svg class="arrow__icon" width="15" height="9">
-  <use href="./images/sprite.svg#icon-arrow-up"></use>
-</svg><ul class = "accordion__content gallery__list read__gallery__list"></ul></div>`;
+      return `
+      <div class = "accordion__container accord parent__box dated=${el.toString()}">
+      <span class ="title__date">${el.toString()}</span>
+<ul class = "accordion__content gallery__list read__gallery__list"></ul></div>`;
     })
     .join('');
   refs.readNewsContainer.insertAdjacentHTML('beforeend', divMarkup);

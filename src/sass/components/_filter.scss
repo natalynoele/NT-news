@@ -16,8 +16,6 @@ li {
 
 .catagories__container-btn {
     position: relative;
-    margin-bottom: 40px;
-    margin-top: 24px;
     cursor: pointer;
 
 }
@@ -151,6 +149,7 @@ li {
     font-size: 12px;
     font-weight: 400;
     text-transform: capitalize;
+    text-align: start;
     cursor: pointer;
 }
 
@@ -159,8 +158,6 @@ li {
     font-size: 12px;
     margin: 0;
     padding: 7.5px 24px;
-    margin-bottom: 40px;
-    margin-top: 24px;
     border-radius: 20px;
     border: 1px solid rgba(75, 72, 219, 1);
     color: rgba(75, 72, 219, 1);
