@@ -1,21 +1,21 @@
 {
-  "name": "parcel-project-template",
+  "name": "NT-news",
   "version": "2.0.0",
   "description": "",
-  "homepage": "https://userzahar.github.io/new-news-only/",
+  "homepage": "https://natalynoele.github.io/NT-news/",
   "scripts": {
     "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /new-news-only/"
+    "build": "parcel build src/*.html --public-url /NT-news/"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/goitacademy/parcel-project-template.git"
+    "url": "git+https://github.com/natalynoele/NT-news.git"
   },
   "keywords": [],
-  "author": "Alexander Repeta <alexander.repeta@gmail.com>",
+  "author": "Nataliia",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/goitacademy/parcel-project-template/issues"
+    "url": "https://github.com/natalynoele/NT-news/issues"
   },
   "dependencies": {
     "@heycar-uikit/accordion": "^2.1.7",
